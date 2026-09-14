@@ -1,6 +1,7 @@
 let currentInput = '';
 let firstOperand = null;
 let operator = '';
+let equation = '';
 
 function appendNumber(number) {
     currentInput += number;
@@ -14,7 +15,9 @@ function appendOperator(op) {
     }
     firstOperand = parseFloat(currentInput);
     operator = op;
+    equation = currentInput + ' ' + operator + ' ';
     currentInput = '';
+    display.value = equation;
 }
 
 function calculateResult() {
@@ -48,10 +51,11 @@ function calculateResult() {
         default:
             return;
     }
-    display.value = result;
+    display.value = equation + secondOperand + ' = ' + result;
     currentInput = result.toString();
     firstOperand = null;
     operator = '';
+    equation = '';
 }
 
 function clearDisplay() {
@@ -59,6 +63,7 @@ function clearDisplay() {
     currentInput = '';
     operator = '';
     firstOperand = null;
+    equation = '';
 }
 
 function deleteLast() {
