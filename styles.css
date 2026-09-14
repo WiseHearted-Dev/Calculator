@@ -68,3 +68,7 @@ button.operator:hover {
 button.operator:active {
     background-color: #d07000;
 }
+
+.zero-button {
+    grid-column: span 2;
+}
