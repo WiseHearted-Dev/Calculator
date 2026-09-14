@@ -9,3 +9,7 @@ Create a simple calculator app that lets you add, subtract, multiply and divide.
 ## Development Environment
 
 This project was developed using Aider and a local AI-assisted development environment.
+
+## License                                             
+This project is licensed under the MIT License - see   
+the [LICENSE](LICENSE) file for details.
