@@ -1,7 +1,6 @@
-let display = document.getElementById('display');
 let currentInput = '';
-let operator = '';
 let firstOperand = null;
+let operator = '';
 
 function appendNumber(number) {
     currentInput += number;
@@ -39,13 +38,20 @@ function calculateResult() {
             }
             result = firstOperand / secondOperand;
             break;
+        case '%':
+            if (secondOperand === 0) {
+                display.value = 'Error';
+                return;
+            }
+            result = firstOperand % secondOperand;
+            break;
         default:
             return;
     }
     display.value = result;
-    firstOperand = result;
+    currentInput = result.toString();
+    firstOperand = null;
     operator = '';
-    currentInput = '';
 }
 
 function clearDisplay() {
