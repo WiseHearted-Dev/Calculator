@@ -59,6 +59,11 @@ During the development of this project, I encountered several issues and used AI
 4. **Prompt**: I wanted to allow users to input calculations using the keyboard.
    - **Solution**: Although not explicitly shown in the code, I used keyboard event listeners to handle keyboard input, ensuring that users can input calculations using their keyboard.
 
+## Keyboard Input Issue
+
+1. **Prompt**: When I type `%` on my keyboard it does nothing on my calculator app.
+   - **Solution**: I updated the keyboard event listener to correctly handle the `%` key. The `%` key should now correctly append the `%` operator to the current input.
+
 ## License                                             
 This project is licensed under the MIT License - see   
 the [LICENSE](LICENSE) file for details.
