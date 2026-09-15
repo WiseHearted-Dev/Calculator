@@ -235,7 +235,7 @@ button.operator:active {
 }
 ```
 
-      These changes will fix the layout and button alignment bug in your HTML and CSS calculator project.
+These changes will fix the layout and button alignment bug in your HTML and CSS calculator project.
 
 ## License                                             
 This project is licensed under the MIT License - see   
