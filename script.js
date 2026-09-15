@@ -46,7 +46,7 @@ function calculateResult() {
                 display.value = 'Error';
                 return;
             }
-            result = firstOperand % secondOperand;
+            result = firstOperand * (secondOperand / 100);
             break;
         default:
             return;
