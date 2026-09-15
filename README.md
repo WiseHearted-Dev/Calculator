@@ -45,16 +45,16 @@ During the development of this project, I encountered several issues and used AI
 - **Prompt**: /ask how do I input the main amount and get the tipping/discount result when using percentage? For example I want to input 37.50 and multiply by 20% and click = to get 7.50
    - **Solution**: To input the main amount and get the tipping/discount result when using the percentage operator, follow these steps:
 
-      - **Input the main amount**: For example, input `37.50`.
-      - **Select the percentage operator**: Click on the `%` button.
-      - **Input the percentage**: For example, input `20`.
-      - **Click the equals button**: Click on the `=` button to get the result.
+      1\. **Input the main amount**: For example, input `37.50`.
+      2\. **Select the percentage operator**: Click on the `%` button.
+      3\. **Input the percentage**: For example, input `20`.
+      4\. **Click the equals button**: Click on the `=` button to get the result.
 
    So, the sequence of actions would be:
-      - Click `3`, `7`, `.`, `5`, `0` (to input `37.50`)
-      - Click `%` (to select the percentage operator)
-      - Click `2`, `0` (to input `20`)
-      - Click `=` (to calculate the result)
+      1\. Click `3`, `7`, `.`, `5`, `0` (to input `37.50`)
+      2\. Click `%` (to select the percentage operator)
+      3\. Click `2`, `0` (to input `20`)
+      4\. Click `=` (to calculate the result)
 
    The display should then show `37.50 % 20 = 7.50`.
 
@@ -130,16 +130,16 @@ This update ensures that the keyboard event listener correctly handles the `%` k
       The CSS sets up a 4x5 grid (`grid-template-columns: repeat(4, 1fr)`), but the buttons are out of order, two buttons are missing text, and the row counts do not align perfectly.  
         
       Please modify my files with the following fixes:  
-      1. Reorder the HTML buttons so they flow row-by-row into the 4-column layout properly.  
-      2. Fill in the missing text labels for the division (`/`) and decimal (`.`) buttons.  
-      3. Add a percentage button (`%`) in the first row to fill the grid gap.  
-      4. Add CSS to make the `0` button (`.zero-button`) span across 2 columns (`grid-column: span 2`) so the final row matches the 4-column grid width.  
+      1\. Reorder the HTML buttons so they flow row-by-row into the 4-column layout properly.  
+      2\. Fill in the missing text labels for the division (`/`) and decimal (`.`) buttons.  
+      3\. Add a percentage button (`%`) in the first row to fill the grid gap.  
+      4\. Add CSS to make the `0` button (`.zero-button`) span across 2 columns (`grid-column: span 2`) so the final row matches the 4-column grid width.  
       - **Solution**: To fix the layout and button alignment bug in your HTML and CSS calculator project, we need to make the following changes:
 
-         - Reorder the HTML buttons so they flow row-by-row into the 4-column layout properly.
-         - Fill in the missing text labels for the division (`/`) and decimal (`.`) buttons.
-         - Add a percentage button (`%`) in the first row to fill the grid gap.
-         - Add CSS to make the `0` button (`.zero-button`) span across 2 columns (`grid-column: span 2`) so the final row matches the 4-column grid width.
+         1\. Reorder the HTML buttons so they flow row-by-row into the 4-column layout properly.
+         2\. Fill in the missing text labels for the division (`/`) and decimal (`.`) buttons.
+         3\. Add a percentage button (`%`) in the first row to fill the grid gap.
+         4\. Add CSS to make the `0` button (`.zero-button`) span across 2 columns (`grid-column: span 2`) so the final row matches the 4-column grid width.
 
 Here are the updated files:
 
