@@ -2,7 +2,33 @@
 
 This project is a simple calculator app that allows you to perform basic arithmetic operations such as addition, subtraction, multiplication, division, and tipping/discount percentage. It also includes error handling for division by zero and a clear button to start a new calculation. You can click buttons on the GUI or use your keyboard to input numbers and operators.
 
-## Development Environment
+## Getting Started
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory
+3. Open the index.html file in a web browser.
+
+## Features
+
+- Displays equation and result
+- You can Click GUI buttons or use your keyboard to input numbers and operators
+- Del button deletes last clicked or type character in display
+- C button clears the display and is ready for new input
+- % button calculates tipping/discount amount (37.50 % 20 = 7.5)
+
+## Requirements
+
+- A web browser
+
+## Contributing
+
+Contribution are welcome! Please fork the repository and submit a pull request.
+
+## License                                             
+This project is licensed under the MIT License - see   
+the [LICENSE](LICENSE) file for details.
+
+# Development Environment
 
 This project was developed using Aider and a local AI-assisted development environment (Ollama/Qwen2.5-Coder:7b).
 
@@ -16,7 +42,7 @@ During the development of this project, I encountered several issues and used AI
 
 ### Figuring out how percentage operator % works
 
-1. **Prompt**: /ask how do I input the main amount and get the tipping/discount result when using percentage? For example I want to input 37.50 and multiply by 20% and click = to get 7.50
+- **Prompt**: /ask how do I input the main amount and get the tipping/discount result when using percentage? For example I want to input 37.50 and multiply by 20% and click = to get 7.50
    - **Solution**: To input the main amount and get the tipping/discount result when using the percentage operator, follow these steps:
 
       - **Input the main amount**: For example, input `37.50`.
@@ -34,7 +60,7 @@ During the development of this project, I encountered several issues and used AI
 
 ### Keyboard Input Issue
 
-1. **Prompt**: When I type % on my keyboard it does nothing on my calculator app. How can this be fixed?  
+- **Prompt**: When I type % on my keyboard it does nothing on my calculator app. How can this be fixed?  
    - **Solution**: To fix the issue where typing `%` on the keyboard does nothing in the calculator app, we need to ensure that the keyboard event listener correctly handles the `%` key. Here is the updated `index.html` file:
 
 index.html
@@ -108,12 +134,12 @@ This update ensures that the keyboard event listener correctly handles the `%` k
       2. Fill in the missing text labels for the division (`/`) and decimal (`.`) buttons.  
       3. Add a percentage button (`%`) in the first row to fill the grid gap.  
       4. Add CSS to make the `0` button (`.zero-button`) span across 2 columns (`grid-column: span 2`) so the final row matches the 4-column grid width.  
-   - **Solution**: To fix the layout and button alignment bug in your HTML and CSS calculator project, we need to make the following changes:
+      - **Solution**: To fix the layout and button alignment bug in your HTML and CSS calculator project, we need to make the following changes:
 
-      1. Reorder the HTML buttons so they flow row-by-row into the 4-column layout properly.
-      2. Fill in the missing text labels for the division (`/`) and decimal (`.`) buttons.
-      3. Add a percentage button (`%`) in the first row to fill the grid gap.
-      4. Add CSS to make the `0` button (`.zero-button`) span across 2 columns (`grid-column: span 2`) so the final row matches the 4-column grid width.
+         - Reorder the HTML buttons so they flow row-by-row into the 4-column layout properly.
+         - Fill in the missing text labels for the division (`/`) and decimal (`.`) buttons.
+         - Add a percentage button (`%`) in the first row to fill the grid gap.
+         - Add CSS to make the `0` button (`.zero-button`) span across 2 columns (`grid-column: span 2`) so the final row matches the 4-column grid width.
 
 Here are the updated files:
 
@@ -236,7 +262,3 @@ button.operator:active {
 ```
 
 These changes will fix the layout and button alignment bug in your HTML and CSS calculator project.
-
-## License                                             
-This project is licensed under the MIT License - see   
-the [LICENSE](LICENSE) file for details.
