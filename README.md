@@ -10,10 +10,10 @@ This project is a simple calculator app that allows you to perform basic arithme
 
 ## Features
 
-- Displays equation and result
+- The display box displays equation and result
 - You can Click GUI buttons or use your keyboard to input numbers and operators
-- Del button deletes last clicked or type character in display
-- C button clears the display and is ready for new input
+- Del button deletes last clicked or typed character in display
+- C button clears the display and makes the display ready for new input
 - % button calculates tipping/discount amount (37.50 % 20 = 7.5)
 
 ## Requirements
@@ -22,7 +22,7 @@ This project is a simple calculator app that allows you to perform basic arithme
 
 ## Contributing
 
-Contribution are welcome! Please fork the repository and submit a pull request.
+Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License                                             
 This project is licensed under the MIT License - see   
