@@ -262,3 +262,11 @@ button.operator:active {
 ```
 
 These changes will fix the layout and button alignment bug in your HTML and CSS calculator project.
+
+## Thoughts from WiseHearted-Dev
+
+I did this to challenge myself. I like AI and I want to learn it well and do good with it. I find that having my own personal software developer assistant is great and amazing. It would take me weeks to do what I just did with AI in a couple of days to build this calculator app. This excites me and now I'm thinking about what to build next! Even creating this README was exciting :joy: lol! Aider started it for me but I took over here at the end. I guess that's how I'll become better at this. Seeing how AI starts it and then observing, learning ,and playing with it. I'll add that I did use Google Gemini for some help along the way because working with a local AI is slow. For example, I asked Gemini about deep nesting and formatting README files and I learned how to do it. Longterm plan is to transition to a cloud AI environment but for now I'll trade speed for free, opensource engineering, and local AI-assisted learning! So please enjoy this simple calculator app! 
+
+Don't forget, a human will always be needed :robot:
+
+WiseHearted-Dev out! :shaka:
