@@ -269,4 +269,4 @@ I did this to challenge myself. I like AI and I want to learn it well and do goo
 
 Don't forget, a human will always be needed :robot:
 
-WiseHearted-Dev out! :shaka:
+WiseHearted-Dev out! 🤙 
