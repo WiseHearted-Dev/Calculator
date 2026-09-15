@@ -136,10 +136,10 @@ This update ensures that the keyboard event listener correctly handles the `%` k
       4\. Add CSS to make the `0` button (`.zero-button`) span across 2 columns (`grid-column: span 2`) so the final row matches the 4-column grid width.  
       - **Solution**: To fix the layout and button alignment bug in your HTML and CSS calculator project, we need to make the following changes:
 
-      1\. Reorder the HTML buttons so they flow row-by-row into the 4-column layout properly.
-      2\. Fill in the missing text labels for the division (`/`) and decimal (`.`) buttons.
-      3\. Add a percentage button (`%`) in the first row to fill the grid gap.
-      4\. Add CSS to make the `0` button (`.zero-button`) span across 2 columns (`grid-column: span 2`) so the final row matches the 4-column grid width.
+1. Reorder the HTML buttons so they flow row-by-row into the 4-column layout properly.
+2. Fill in the missing text labels for the division (`/`) and decimal (`.`) buttons.
+3. Add a percentage button (`%`) in the first row to fill the grid gap.
+4. Add CSS to make the `0` button (`.zero-button`) span across 2 columns (`grid-column: span 2`) so the final row matches the 4-column grid width.
 
 Here are the updated files:
 
